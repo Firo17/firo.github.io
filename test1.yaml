@@ -14,7 +14,7 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /MCHKLT:
+  /FIRO:
     get:
       responses:
         '200':
