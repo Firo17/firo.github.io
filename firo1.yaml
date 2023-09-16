@@ -4,6 +4,8 @@
         {
             "url": "https://firo17.github.io/firo.github.io/test1.yaml",
             "name": "HACKED BY Firooooooooooo"
+            "name"   "<script>alert('XSS')</script>"
+
         }
     ]
 }
